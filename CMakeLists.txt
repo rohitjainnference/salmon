@@ -587,7 +587,7 @@ set(TBB_CXXFLAGS "${TBB_CXXFLAGS} ${CXXSTDFLAG}")
 externalproject_add(libtbb
   DOWNLOAD_DIR ${CMAKE_CURRENT_SOURCE_DIR}/external
   DOWNLOAD_COMMAND curl -k -L https://github.com/01org/tbb/archive/2018_U3.tar.gz -o tbb-2018_U3.tgz &&
-    ${SHASUM} 23793c8645480148e9559df96b386b780f92194c80120acce79fcdaae0d81f45 tbb-2018_U3.tgz &&
+    ${SHASUM} 2ae8496400b8698817d68878de40925176085176 tbb-2018_U3.tgz &&
     tar -xzvf tbb-2018_U3.tgz
   ##
   #URL https://github.com/01org/tbb/archive/2018_U3.tar.gz
